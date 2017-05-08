@@ -74,3 +74,8 @@ This installs the **tns-core-modules** package to the node_modules folder and ad
 > **IMPORTANT:** The `tns create` command will create a new project, add the **tns-core-modules** package as a dependency to its package.json and install it. So each new project you create will have the **tns-core-modules** package installed and you do not have to install it explicitly.
 
 Another place to find **tns-core-modules** package is [NativeScript Releases](https://github.com/NativeScript/NativeScript/releases/), where you can find a collection of the available tns-core-modules-\*.tgz packages for every release. You can download a selected release and install it by running: `npm install <path to tns-core-modules-*.tgz> --save`.
+
+
+### Troubleshooting
+
+> **Note:** If you're running into a lot of errors. It's always helpful creating a new **Nativescript 3** project and comparing the app `package.json dependecies`from the new project with the project you're trying to update.
